@@ -301,36 +301,77 @@ export const OFFICIAL_DOCUMENTS = [
   },
   {
     title: "Amended By-Laws",
-    desc: "Text version of the Amended By-Laws",
+    desc: "Full text version of the Amended By-Laws with qualification guidelines",
     filename: "Amended-By-Laws.md",
     type: "Text",
     link: "https://github.com/tgbi-to/TGBI_TO/blob/main/docs/cbl/Amended-By-Laws.md"
   },
   {
     title: "Mandatory Basic Course",
-    desc: "MBC 12-Hour Training Materials (POI)",
+    desc: "Official 12-Hour Training Program of Instruction (POI)",
     filename: "TGBI-TO MBC.docx",
     type: "Courseware",
     link: "https://github.com/tgbi-to/TGBI_TO/blob/main/docs/mbc/TGBI-TO%20MBC.docx"
+  },
+  {
+    title: "History of GBI by UPMF Carlomagno",
+    desc: "Comprehensive memoirs and official account of Diablo Squad & TGBI 1984",
+    filename: "History.md",
+    type: "Historical Record",
+    link: "https://github.com/tgbi-to/TGBI_TO/blob/main/docs/history/History.md"
+  },
+  {
+    title: "Official Code of Ethics",
+    desc: "Organizational ethics, tenets, and moral duties of all members",
+    filename: "Code-of-Ethics.md",
+    type: "Legal & Ethics",
+    link: "https://github.com/tgbi-to/TGBI_TO/blob/main/docs/legal/Code-of-Ethics.md"
+  },
+  {
+    title: "The Guardians Creed & Prayer",
+    desc: "Official liturgical creed, spiritual prayer, and declarations",
+    filename: "Creed.md",
+    type: "Guiding Principles",
+    link: "https://github.com/tgbi-to/TGBI_TO/blob/main/docs/principles/Creed.md"
   }
 ];
 
 export const OFFICIAL_GALLERY = [
   {
+    title: "Tropang Guardians Song (TGBI-TO)",
+    subtitle: "Official Brotherhood Hymn & Video Presentation",
+    type: "Official Song",
+    link: "https://www.youtube.com/watch?v=6ePUHwvxhDU"
+  },
+  {
+    title: "39th Founding Anniversary Anthem",
+    subtitle: "Celebration at Batangas City, Philippines - December 10, 2023",
+    type: "Video",
+    link: "https://www.youtube.com/watch?v=Za916BIglec"
+  },
+  {
+    title: "Day 1 | TGBI-TO 39th Founding Anniversary",
+    subtitle: "Opening ceremonies, arrival of delegates, and summit discussions",
+    type: "Anniversary Event",
+    link: "https://www.youtube.com/watch?v=QNmPmreOwEk"
+  },
+  {
+    title: "Day 2 | TGBI-TO 39th Founding Anniversary",
+    subtitle: "General assembly, recognition rites, and fellowship evening",
+    type: "Anniversary Event",
+    link: "https://www.youtube.com/watch?v=XNJ9pREwNwk"
+  },
+  {
     title: "STA. Catalina Guardians Night",
+    subtitle: "Community celebration and fellowship album",
     type: "Photo Album",
     link: "https://photos.app.goo.gl/bh8yMtK1uniy1YK76"
   },
   {
     title: "41st Founding Anniversary Summit",
+    subtitle: "Official national & international delegation gallery",
     type: "Photo Album",
     link: "https://photos.app.goo.gl/npsUKFesEFv3zzsA9"
-  },
-  {
-    title: "39th Founding Anniversary",
-    subtitle: "Celebration at Batangas City, Philippines - December 10, 2023",
-    type: "Video",
-    link: "https://www.youtube.com/watch?v=Za916BIglec"
   }
 ];
 

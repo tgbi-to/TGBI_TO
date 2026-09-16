@@ -121,7 +121,7 @@ export const ChaptersDirectory: React.FC = () => {
                   >
                     <div className="flex items-center gap-3">
                       <div className="w-8 h-8 rounded-lg bg-amber-50 text-amber-700 flex items-center justify-center shrink-0">
-                        {media.type === 'Video' ? <Video className="w-4 h-4" /> : <ImageIcon className="w-4 h-4" />}
+                        {media.type.includes('Photo') ? <ImageIcon className="w-4 h-4" /> : <Video className="w-4 h-4" />}
                       </div>
                       <div>
                         <h5 className="font-semibold text-xs sm:text-sm text-slate-900 group-hover:text-[#0038A8] transition-colors">

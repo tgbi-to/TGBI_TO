@@ -1,58 +1,162 @@
-# The Guardians Brotherhood, Inc. - The Original (TGBI-TO) Web Portal
+<div align="center">
+  <img src="public/assets/brand/TGBITO.jpg" alt="TGBI-TO Official Logo" width="240" style="border-radius: 50%; box-shadow: 0 10px 25px rgba(0,0,0,0.3);"/>
+  <h1>THE GUARDIANS BROTHERHOOD, INC. - THE ORIGINAL (TGBI-TO)</h1>
+  <p><strong>SEC Registration No. 123899 • Registered December 10, 1984</strong></p>
+  <p><em>"Brotherhood for peace and prosperity"</em></p>
 
-Official mobile-responsive web portal for **The Guardians Brotherhood Incorporated - The Original (TGBI-TO)**.
+  <p>
+    <a href="https://tgbi-to.github.io/TGBI_TO/">
+      <img src="https://img.shields.io/badge/🌐_Official_Website-GitHub_Pages-0038A8?style=for-the-badge" alt="GitHub Pages Website" />
+    </a>
+    <a href="https://github.com/tgbi-to/TGBI_TO">
+      <img src="https://img.shields.io/badge/Repository-TGBI__TO-C8102E?style=for-the-badge&logo=github" alt="Repository" />
+    </a>
+    <img src="https://img.shields.io/badge/SEC_Reg-123899-dfb15b?style=for-the-badge" alt="SEC 123899" />
+  </p>
+</div>
 
-## Overview
+---
 
-This application serves as the central digital presence for TGBI-TO, reflecting the organization's historic roots (SEC Reg. No. 123899, Dec 10, 1984), its 7 Guiding Principles, Code of Ethics, and Membership details. All content is strictly synchronized with the official GitHub repository (`https://github.com/tgbi-to/repo`) to maintain authenticity and legal primacy.
+## 🌐 Official Website & GitHub Pages
 
-## Features
+The official web portal is deployed and accessible online at:
 
-- **Strict Adherence to Source:** Pulls organizational data (Creed, Prayer, History, Code of Ethics) directly from official documents.
-- **Responsive Layout:** fully optimized for mobile devices (min 44px touch targets, mobile navigation bar, adaptive grids).
-- **Modern Stack:** React 19, TypeScript, Vite, and Tailwind CSS.
-- **Typography:** Uses *Cinzel* for display headings, *Crimson Pro* for official document serif text, and *Plus Jakarta Sans* for modern body text.
-- **Official Branding:** Incorporates the verified emblem and color schemes.
+### 🔗 **[https://tgbi-to.github.io/TGBI_TO/](https://tgbi-to.github.io/TGBI_TO/)**
 
-## Project Structure
+> **Note for GitHub Pages Activation:**
+> In your GitHub repository settings under **Settings ➔ Pages ➔ Build and deployment ➔ Source**, select **GitHub Actions**. The included workflow in `.github/workflows/deploy-pages.yml` will automatically build and publish any commits pushed to the `main` branch directly to the Pages URL above.
 
-- `/src/data/tgbitoData.ts`: Centralized truth for all organizational text and links.
-- `/src/components/`: Modular UI components representing each section of the portal.
-  - `HeroSection.tsx`: Landing view with SEC registration badge.
-  - `AboutSection.tsx`: Organizational identity and heritage.
-  - `MissionVisionSection.tsx`: Official mission statement and 8 vision pillars.
-  - `PrinciplesSection.tsx`: The 7 guiding principles.
-  - `CodeOfEthicsSection.tsx`: The Code of Conduct.
-  - `JoinUsSection.tsx`: Membership process and inquiry forms.
-  - `MobileBottomBar.tsx`: Sticky navigation for mobile devices.
-- `/public/assets/brand/`: Contains the official TGBI-TO emblem.
+---
 
-## Local Development
+## 📌 About Our Organization
 
-To run this project locally:
+* **Official Name:** THE GUARDIANS BROTHERHOOD, INC. (with the legal identifier **"The Original"** or **"TO"** to distinguish from later factions and splinter groups).
+* **SEC Registration:** No. 123899 dated December 10, 1984 (registered as a non-profit, non-stock corporation under Philippine law).
+* **Official Motto:** *Brotherhood for peace and prosperity*.
+* **Tagline:** *Since 1976 - Uniting True Brothers and Sisters*.
 
-1. Clone the repository and install dependencies:
-   ```bash
-   npm install
-   ```
+### Meaning of the GUARDIANS Acronym
 
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
+* **G** — Gentlemen
+* **U** — United
+* **A** — Associates
+* **R** — Race (Filipino Race)
+* **D** — Dauntless
+* **I** — Ingenious
+* **A** — Advocators
+* **N** — Nation
+* **S** — Society
 
-3. Build for production:
-   ```bash
-   npm run build
-   ```
+> *Filipino translation:*  
+> **"Mga Maginoo, Nagkakaisang Katuwang Ng Lahing Filipino, Magigiting at Matapat na Tagapagtanggol ng Bansa at Lipunan".**
 
-## Design Constraints
+### The 7 Guiding Principles
 
-- Do not introduce unofficial data. Use only content approved from the central repository.
-- Emojis used in the Principles section must match the official set.
-- All structural changes must maintain strict mobile responsiveness.
-- The Official Logo must remain untouched without unauthorized overlays or filters.
+1. 🤝 **Brotherhood** — Genuine unity and mutual support among all brothers and sisters.
+2. 🎯 **Integrity** — Moral uprightness, honesty, and accountability in private and public life.
+3. 🕊️ **Peace** — Commitment to harmony, peaceful conflict resolution, and community safety.
+4. 📋 **Discipline** — Adherence to the Constitution, By-Laws, and lawful authority.
+5. 🤲 **Service** — Selfless dedication to humanitarian outreach and nation-building.
+6. ⚖️ **Equality** — Equal dignity, mutual respect, and fairness regardless of background.
+7. 🔱 **Justice** — Defense of truth, constitutional rights, and righteous governance.
 
-## Copyright
+---
 
-&copy; The Guardians Brotherhood, Inc. - The Original (TGBI-TO). All rights reserved.
+## 📜 Brief History and Origins
+
+The movement began in the jungles of Mindanao in **1976** as the military detachment **Diablo Squad**, founded by **LEBORIO JANGAO JR.** (honored as **"BFG ABRAHAM"** — the Brain and Father of all GUARDIANS). It later evolved into the *Diablo Squad Crime Buster (DSCB)* to fight lawlessness and uphold peace.
+
+In November 1984, the Deputy Chief of Staff of the Armed Forces of the Philippines (AFP), Lieutenant General Fidel V. Ramos, ordered the disbandment of DSCB but gave his blessing to transform the group into a peaceful, legal civil-military fraternity. On **December 10, 1984**, **The Guardians Brotherhood, Inc. (TGBI)** was formally incorporated under SEC Registration No. 123899.
+
+Today, under the leadership of International Chairman **UPMF CARLOMAGNO**, one of the original 1984 incorporators, the organization continues nationwide and global reforms aimed at returning to authentic constitutional roots, resolving disputes, and uniting true members worldwide.
+
+---
+
+## 🏢 International Headquarters & Contacts
+
+* **General Headquarters (GHQ):**  
+  43-A Pangasinan St., Bago Bantay, Quezon City, 1105 Philippines
+* **Office of the International Chairman (OIC):**  
+  8500 Boyne Street, Downey, California 90242, USA
+* **International Chairman / Founder:**  
+  **ELPIDIO “UPMF CARLOMAGNO” SELETARIA JR., LLB.**
+* **Official Contact Email:**  
+  [`theguardiansv@gmail.com`](mailto:theguardiansv@gmail.com)
+
+---
+
+## 📂 Repository Structure
+
+This repository acts as both the central institutional archive and the codebase for the official web portal:
+
+```
+├── .github/
+│   └── workflows/
+│       └── deploy-pages.yml     # Automated Vite build & GitHub Pages deployment
+├── assets/
+│   ├── brand/                   # Official high-resolution emblems and seal
+│   └── media/                   # Archival imagery, song sheets, and photos
+├── docs/
+│   ├── cbl/                     # Constitution & By-Laws (Amended)
+│   ├── mbc/                     # Mandatory Basic Course (POI) curriculum
+│   ├── legal/                   # Code of Ethics and anti-hazing statutory compliance
+│   ├── principles/              # Creed, Prayer, Mission & Vision statements
+│   ├── forms/                   # Official forms and applications
+│   └── contact/                 # GHQ and regional contact directories
+├── regions/                     # Chapter records (Region 7 Cebu, Downey USA, Overseas)
+├── websites/                    # Archival HTML websites and digital chapter themes
+├── src/                         # Modern React 19 + TypeScript + Tailwind CSS portal
+│   ├── components/              # Responsive, accessible UI components
+│   ├── data/tgbitoData.ts       # Central verified institutional data source
+│   └── index.css                # Typography pairing (Cinzel, Crimson Pro, Jakarta)
+├── public/                      # Static web assets served to clients
+└── package.json                 # Project dependencies and npm scripts
+```
+
+---
+
+## 💻 Web Portal Development & Local Run
+
+To run and edit the web portal locally:
+
+### Prerequisites
+- Node.js (version 20 or later recommended)
+- npm or bun
+
+### Setup & Execution
+```bash
+# 1. Clone your repository
+git clone https://github.com/tgbi-to/TGBI_TO.git
+cd TGBI_TO
+
+# 2. Install project dependencies
+npm install
+
+# 3. Start local development server
+npm run dev
+
+# 4. Compile and verify production build
+npm run build
+```
+
+---
+
+## 📝 Official Google Forms & Applications
+
+* **Official Online Membership Application:**  
+  [https://docs.google.com/forms/d/e/1FAIpQLScgAEjjwFyaf56FysR0jKTPCnz1jvoXxTUXdTwn698yVBDnFw/viewform](https://docs.google.com/forms/d/e/1FAIpQLScgAEjjwFyaf56FysR0jKTPCnz1jvoXxTUXdTwn698yVBDnFw/viewform)
+* **Start an Organizational Project / Idea:**  
+  [https://docs.google.com/forms/d/e/1FAIpQLScgAEjjwFyaf56FysR0jKTPCnz1jvoXxTUXdTwn698yVBDnFw/viewform](https://docs.google.com/forms/d/e/1FAIpQLScgAEjjwFyaf56FysR0jKTPCnz1jvoXxTUXdTwn698yVBDnFw/viewform)
+* **The Guardians Cooperative Application:**  
+  [https://script.google.com/macros/s/AKfycbxSWSRk_sah3i_5bV8PvXgRtW-KUXW35OsblJuZkD3wXwTVU7wRVYk_IbG10yz-fGus/exec](https://script.google.com/macros/s/AKfycbxSWSRk_sah3i_5bV8PvXgRtW-KUXW35OsblJuZkD3wXwTVU7wRVYk_IbG10yz-fGus/exec)
+
+---
+
+## ⚖️ Governance & Anti-Hazing Compliance
+
+The Guardians Brotherhood, Inc. - The Original strictly prohibits any form of hazing, physical abuse, degradation, or unauthorized initiation rites, in full compliance with Republic Act No. 8049 (Anti-Hazing Law of the Philippines) and the organization's Amended Constitution and By-Laws. Membership is earned through character investigation, educational seminars, and civic service.
+
+---
+
+*Mabuhay ang TGBI - The Original! We serve with pride and honor, we lead with purpose, we stand as one.*  
+&copy; The Guardians Brotherhood, Inc. - The Original (TGBI-TO). SEC Reg. No. 123899. All rights reserved.
