@@ -296,19 +296,22 @@ export const OFFICIAL_DOCUMENTS = [
     title: "TGBI-TO CBL (Amended)",
     desc: "Amended Constitution and By-Laws of TGBI-TO",
     filename: "TGBI-TO CBL (Amended).docx",
-    type: "Document"
+    type: "Document",
+    link: "https://github.com/tgbi-to/TGBI_TO/blob/main/docs/cbl/TGBI-TO%20CBL%20(Amended).docx"
   },
   {
     title: "Amended By-Laws",
     desc: "Text version of the Amended By-Laws",
     filename: "Amended-By-Laws.md",
-    type: "Text"
+    type: "Text",
+    link: "https://github.com/tgbi-to/TGBI_TO/blob/main/docs/cbl/Amended-By-Laws.md"
   },
   {
     title: "Mandatory Basic Course",
     desc: "MBC 12-Hour Training Materials (POI)",
     filename: "TGBI-TO MBC.docx",
-    type: "Courseware"
+    type: "Courseware",
+    link: "https://github.com/tgbi-to/TGBI_TO/blob/main/docs/mbc/TGBI-TO%20MBC.docx"
   }
 ];
 
